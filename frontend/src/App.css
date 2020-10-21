@@ -1,4 +1,115 @@
 .App {
-  text-align: center;
-  height: 100%;
+    text-align: center;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background: #a8ff78;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #a8ff78);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.con {
+    background: #a8ff78;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #a8ff78);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.form-container1 {
+    background: white;
+    border-radius: 10px;
+    padding: 30px 80px;
+    max-width: 700px;
+    margin: 0 auto;
+    box-shadow: crimson;
+}
+
+.addschedule {
+    height: 100vh;
+    background: #a8ff78;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #a8ff78);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.addplant {
+    height: 100vh;
+    background: #a8ff78;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #a8ff78);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.updateschedule,
+.updateplant {
+    height: 100vh;
+    background: #a8ff78;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #a8ff78);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.color-nav {
+    background-color: rgb(4, 53, 4);
+}
+
+.center {
+    margin: auto;
+    width: 42%;
+    border: 4px solid #090f01;
+    padding: 5px;
+    border-radius: 20px 50px;
+    background-color: #dae2d1;
+}
+
+.center1 {
+    margin: auto;
+    width: 25%;
+    border: 4px solid #090f01;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #bac7ac;
+}
+
+.center2 {
+    margin: auto;
+    width: 30%;
+    border: 4px solid #090f01;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #dae2d1;
+}
+
+.center3 {
+    margin: auto;
+    width: 17%;
+    border: 4px solid #090f01;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #a2ce70;
+}
+
+Table,
+th,
+td {
+    border: 1px solid black;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(24, 43, 21);
+    color: white;
 }
